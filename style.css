@@ -8,22 +8,22 @@
 
 body {
     line-height: 1.6;
-    background-color: #000; /* Set default background color to black */
-    color: #fff; /* Optional: set default text color to white */
+    background: linear-gradient(to bottom right, #000000, #8B0000); /* Gradient from black to dark red */
+    color: #fff;
 }
 
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
-    background-color: #000000; /* Dark background color */
-    padding: 20px; /* Optional: add padding to the container for spacing */
-    border-radius: 10px; /* Optional: add border-radius for a rounded container */
+    background: linear-gradient(to bottom right, #000000, #8B0000); /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 10px;
 }
 
 /* Navigation Bar */
 nav {
-    background: #000000;
+    background: linear-gradient(to bottom right, #000000, #8B0000); /* Semi-transparent black background */
     color: #fff;
     padding: 10px 0;
 }
@@ -54,7 +54,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background: #000000;
+    background: rgba(139, 0, 0, 0.9); /* Semi-transparent dark red background */
     border-radius: 5px;
 }
 
@@ -73,7 +73,7 @@ nav ul li a:hover {
 
 /* Home Section */
 #home {
-    background: url('images/home-bg.jpg') no-repeat center center/cover;
+    background: linear-gradient(to bottom right, #000000, #8B0000), url('images/home-bg.jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -108,7 +108,7 @@ nav ul li a:hover {
 /* About Section */
 #about {
     padding: 60px 0;
-    background-color: #000; /* Ensure about section has black background */
+    background: linear-gradient(to bottom right, #000000, #8B0000);
 }
 
 #about h2 {
@@ -123,14 +123,14 @@ nav ul li a:hover {
 /* Menu Section */
 #menu {
     padding: 60px 0;
-    background-color: #000000; /* Dark background color */
-    color: #fff; /* Optional: make text color white */
+    background: linear-gradient(to bottom right, #000000, #8B0000);
+    color: #fff;
 }
 
 #menu h2 {
     text-align: center;
     margin-bottom: 40px;
-    color: #fff; /* Make h2 text color white */
+    color: #fff;
 }
 
 .menu-items {
@@ -149,18 +149,18 @@ nav ul li a:hover {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(161, 160, 160, 0.3); /* Light shadow under pictures */
+    box-shadow: 0 4px 8px rgba(161, 160, 160, 0.3);
 }
 
 .menu-item h6 {
     margin-top: 10px;
-    color: #fff; /* Make h6 text color white */
+    color: #fff;
 }
 
 /* Contact Section */
 #contact {
     padding: 60px 0;
-    background-color: #000; /* Ensure contact section has black background */
+    background: linear-gradient(to bottom right, #000000, #8B0000);
 }
 
 #contact h2 {
@@ -181,8 +181,8 @@ nav ul li a:hover {
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #000000; /* Input background color */
-    color: #fff; /* Input text color */
+    background-color: linear-gradient(to bottom right, #000000, #8B0000); /* Semi-transparent black background */
+    color: #fff;
 }
 
 #contact form button {
@@ -200,7 +200,7 @@ nav ul li a:hover {
 
 /* Footer */
 footer {
-    background: #000000;
+    background: linear-gradient(to bottom right, #000000, #8B0000); /* Semi-transparent black background */
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -241,6 +241,6 @@ footer {
 
     .menu-item {
         flex: 1 1 auto;
-        margin: 10px 0; /* Adjust the margin to suit the larger size */
+        margin: 10px 0;
     }
 }
